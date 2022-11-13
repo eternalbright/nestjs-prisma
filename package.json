@@ -1,0 +1,22 @@
+{
+  "name": "nestjs-prisma",
+  "version": "1.0.0",
+  "description": "The Prisma NestJS module",
+  "main": "src/database.module.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternalbright/nestjs-prisma.git"
+  },
+  "author": "Oleksandr Mykhailovskyi <eternalbright@pm.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eternalbright/nestjs-prisma/issues"
+  },
+  "homepage": "https://github.com/eternalbright/nestjs-prisma#readme",
+  "dependencies": {
+    "@eternalbright/dotfiles": "github:eternalbright/.dotfiles.node#semver:^1.0.0",
+    "@nestjs/common": "^9.2.0",
+    "@nestjs/core": "^9.2.0",
+    "@prisma/client": "^4.6.1"
+  }
+}
