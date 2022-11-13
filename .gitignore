@@ -1,0 +1,8 @@
+.*
+
+!.gitignore
+
+!.husky/
+
+dist/
+node_modules/

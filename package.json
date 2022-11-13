@@ -1,0 +1,33 @@
+{
+  "name": "@eternalbright/nestjs-prisma",
+  "version": "1.0.0",
+  "description": "The Prisma NestJS module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Oleksandr Mykhailovskyi <eternalbright@pm.me>",
+  "license": "ISC",
+  "dependencies": {
+    "@eternalbright/dotfiles": "github:eternalbright/.dotfiles.node#semver:^1.0.0",
+    "@nestjs/common": "^9.4.0",
+    "@nestjs/core": "^9.4.0",
+    "@prisma/client": "^4.13.0"
+  },
+  "devDependencies": {
+    "@eternalbright/eslint-config": "github:eternalbright/eslint-config#semver:^1.0.0",
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src",
+    "postinstall": "npm run build",
+    "prepare": "husky install || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternalbright/nestjs-prisma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eternalbright/nestjs-prisma/issues"
+  },
+  "homepage": "https://github.com/eternalbright/nestjs-prisma#readme"
+}
